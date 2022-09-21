@@ -1,0 +1,33 @@
+{
+    "name": "socialiteproviders/idme",
+    "description": "ID.me OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "idme",
+        "id.me client key"
+    ],
+    "authors": [
+        {
+            "name": "Matthew Boisjolie",
+            "email": "ahilmurugesan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/socialiteproviders/providers/issues",
+        "source": "https://github.com/socialiteproviders/providers",
+        "docs": "https://socialiteproviders.com/idme"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\IdMe\\": ""
+        }
+    }
+}
